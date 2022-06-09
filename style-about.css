@@ -1,0 +1,77 @@
+:root {
+  --background: #f5f2fe;
+}
+.container {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 60px;
+  max-width: 800px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 95px;
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 30px;
+}
+a {
+  color: #6c63ff;
+}
+h3 {
+  font-size: 24px;
+  opacity: 75%;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.contact {
+  border: 1px solid #6c63ff;
+  padding: 18px;
+  margin-right: 35px;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  color: aliceblue;
+  box-shadow: 8px 7px 24px rgba(0, 0, 0, 0.2);
+}
+.about {
+  border: 1px solid #6c63ff;
+  padding: 18px;
+  border-radius: 5px;
+  color: #6c63ff;
+  background-color: var(--background);
+  box-shadow: 8px 7px 24px rgba(0, 0, 0, 0.2);
+}
+.row {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.one {
+  background-color: var(--background);
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.two {
+  background-color: #f5f2fe;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.contact-me {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.mail {
+  font-size: 28px;
+  text-decoration: none;
+}
+.mail:hover {
+  text-decoration: underline;
+}
+.back-page:hover {
+  color: #6c63ff;
+}
