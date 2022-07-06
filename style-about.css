@@ -6,6 +6,7 @@
   text-align: center;
   margin-top: 60px;
   max-width: 800px;
+  padding: 0 25px 0 25px;
 }
 h2 {
   font-weight: 600;
@@ -68,10 +69,45 @@ h3 {
 .mail {
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 40px;
 }
 .mail:hover {
   text-decoration: underline;
 }
 .back-page:hover {
   color: #6c63ff;
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .row {
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+  }
+  #contactme {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 300px) {
+  #contactme {
+    font-size: 28px;
+  }
+  .mail {
+    font-size: 24px;
+  }
+  div {
+    font-size: 16px;
+    text-align: justify;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 16px;
+  }
 }
